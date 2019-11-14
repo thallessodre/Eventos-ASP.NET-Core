@@ -1,0 +1,12 @@
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Bus\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Bus.deps.json
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Bus\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Bus.dll
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Bus\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Bus.pdb
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Bus\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.dll
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Bus\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.pdb
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Bus\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Bus.csprojAssemblyReference.cache
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Bus\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Bus.csproj.CoreCompileInputs.cache
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Bus\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Bus.AssemblyInfoInputs.cache
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Bus\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Bus.AssemblyInfo.cs
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Bus\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Bus.csproj.CopyComplete
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Bus\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Bus.dll
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Bus\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Bus.pdb

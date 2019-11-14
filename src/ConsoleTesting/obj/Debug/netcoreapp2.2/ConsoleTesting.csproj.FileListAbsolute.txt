@@ -1,0 +1,16 @@
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\ConsoleTesting\bin\Debug\netcoreapp2.2\ConsoleTesting.deps.json
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\ConsoleTesting\bin\Debug\netcoreapp2.2\ConsoleTesting.runtimeconfig.json
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\ConsoleTesting\bin\Debug\netcoreapp2.2\ConsoleTesting.runtimeconfig.dev.json
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\ConsoleTesting\bin\Debug\netcoreapp2.2\ConsoleTesting.dll
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\ConsoleTesting\bin\Debug\netcoreapp2.2\ConsoleTesting.pdb
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\ConsoleTesting\bin\Debug\netcoreapp2.2\Eventos.IO.Domain.dll
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\ConsoleTesting\bin\Debug\netcoreapp2.2\Eventos.IO.Domain.pdb
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\ConsoleTesting\obj\Debug\netcoreapp2.2\ConsoleTesting.csprojAssemblyReference.cache
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\ConsoleTesting\obj\Debug\netcoreapp2.2\ConsoleTesting.csproj.CoreCompileInputs.cache
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\ConsoleTesting\obj\Debug\netcoreapp2.2\ConsoleTesting.AssemblyInfoInputs.cache
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\ConsoleTesting\obj\Debug\netcoreapp2.2\ConsoleTesting.AssemblyInfo.cs
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\ConsoleTesting\obj\Debug\netcoreapp2.2\ConsoleTesting.csproj.CopyComplete
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\ConsoleTesting\obj\Debug\netcoreapp2.2\ConsoleTesting.dll
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\ConsoleTesting\obj\Debug\netcoreapp2.2\ConsoleTesting.pdb
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\ConsoleTesting\bin\Debug\netcoreapp2.2\Eventos.IO.Domain.Core.dll
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\ConsoleTesting\bin\Debug\netcoreapp2.2\Eventos.IO.Domain.Core.pdb

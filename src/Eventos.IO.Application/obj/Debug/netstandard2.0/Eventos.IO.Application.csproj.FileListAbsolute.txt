@@ -1,0 +1,14 @@
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Application\bin\Debug\netstandard2.0\Eventos.IO.Application.deps.json
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Application\bin\Debug\netstandard2.0\Eventos.IO.Application.dll
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.csprojAssemblyReference.cache
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.csproj.CoreCompileInputs.cache
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.AssemblyInfoInputs.cache
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.AssemblyInfo.cs
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Application\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.dll
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Application\bin\Debug\netstandard2.0\Eventos.IO.Domain.dll
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Application\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.pdb
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Application\bin\Debug\netstandard2.0\Eventos.IO.Domain.pdb
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.csproj.CopyComplete
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Application\bin\Debug\netstandard2.0\Eventos.IO.Application.pdb
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.dll
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.pdb

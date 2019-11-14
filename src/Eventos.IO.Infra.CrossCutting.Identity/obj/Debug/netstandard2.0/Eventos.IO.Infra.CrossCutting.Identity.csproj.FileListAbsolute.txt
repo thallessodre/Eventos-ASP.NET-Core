@@ -1,0 +1,17 @@
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.deps.json
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.dll
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.dll
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\bin\Debug\netstandard2.0\Eventos.IO.Domain.dll
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\bin\Debug\netstandard2.0\Eventos.IO.Domain.pdb
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.pdb
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.csprojAssemblyReference.cache
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.csproj.CoreCompileInputs.cache
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.AssemblyInfoInputs.cache
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.AssemblyInfo.cs
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.csproj.CopyComplete
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.pdb
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\bin\Debug\netstandard2.0\Eventos.IO.Application.dll
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\bin\Debug\netstandard2.0\Eventos.IO.Application.pdb
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.dll
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.pdb
+C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\bin\Debug\netstandard2.0\appsettings.json

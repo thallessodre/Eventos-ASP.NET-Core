@@ -1,0 +1,108 @@
+﻿@model Eventos.IO.Application.ViewModels.EventoViewModel
+@using Eventos.IO.Application.ViewModels
+@using Eventos.IO.Domain.Interfaces
+@inject IUser user
+
+@{
+    ViewData["Title"] = "Detalhes";
+}
+<p>
+    <h2>@ViewData["Title"]</h2>
+</p>
+<hr />
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        @{
+            if (Model.DescricaoCurta != null)
+            {
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.DescricaoCurta)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.DescricaoCurta)
+                </dd>
+            }
+            if (Model.DescricaoLonga != null)
+            {
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.DescricaoLonga)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.DescricaoLonga)
+                </dd>
+            }
+        }
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DataInicio)
+        </dt>
+        <dd class="col-sm-10">
+            @Model.DataInicio.ToString("d")
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DataFim)
+        </dt>
+        <dd class="col-sm-10">
+            @Model.DataFim.ToString("d")
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Valor)
+        </dt>
+        <dd class="col-sm-10">
+            @{
+                if (Model.Gratuito)
+                {
+                    @Html.DisplayName("Evento gratuito")
+                }
+                else
+                {
+                    @Html.DisplayFor(model => Model.Valor);
+                }
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayName("Endereço")
+        </dt>
+        <dd class="col-sm-10">
+            @{
+                if (Model.Online)
+                {
+                    @Html.DisplayName("Evento Online")
+                }
+                else
+                {
+                    @Html.DisplayName(Model.Endereco.Logradouro + ", " + Model.Endereco.Numero + ", " + Model.Endereco.Bairro + ", " + Model.Endereco.Cidade + " - " + Model.Endereco.Estado)
+                }
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NomeEmpresa)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NomeEmpresa)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Categoria)
+        </dt>
+        <dd class="col-sm-10">
+            @{
+                var categoria = new CategoriaViewModel().ListarCategorias().FirstOrDefault(c => c.Id == Model.CategoriaId);
+                @Html.Raw(categoria.Nome)
+            }
+        </dd>
+    </dl>
+</div>
+<div>
+    @{
+        if (Model.OrganizadorId == user.GetUserId())
+        {
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Editar</a>
+        }
+    }
+    <a href="javascript:history.go(-1)" class="btn btn-info">Voltar</a>
+</div>

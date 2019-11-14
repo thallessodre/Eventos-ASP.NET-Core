@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Eventos.IO.Infra.Data</id>
+    <version>1.0.0</version>
+    <authors>Eventos.IO.Infra.Data</authors>
+    <owners>Eventos.IO.Infra.Data</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Eventos.IO.Domain.Core" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Eventos.IO.Domain" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Design" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Tools" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.FileExtensions" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="2.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.Data\bin\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.runtimeconfig.json" target="lib\netcoreapp2.0\Eventos.IO.Infra.Data.runtimeconfig.json" />
+    <file src="C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.Data\bin\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.dll" target="lib\netcoreapp2.0\Eventos.IO.Infra.Data.dll" />
+  </files>
+</package>
