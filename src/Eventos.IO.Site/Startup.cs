@@ -11,6 +11,9 @@ using AutoMapper;
 using Eventos.IO.Infra.CrossCutting.Bus;
 using Eventos.IO.Infra.CrossCutting.IoC;
 using Eventos.IO.Infra.CrossCutting.Identity.Data;
+using Eventos.IO.Infra.CrossCutting.AspNetFilters;
+using Elmah.Io.Extensions.Logging;
+using Elmah.Io.AspNetCore;
 
 namespace Eventos.IO.Site
 {
@@ -46,9 +49,14 @@ namespace Eventos.IO.Site
                 options.AddPolicy("PodeGravarEventos", policy => policy.RequireClaim("Eventos", "Gravar"));
             });
 
+            services.Configure<ElmahIoOptions>(Configuration.GetSection("ElmahIo"));
+            services.AddElmahIo();
+
             services.AddMvc(options =>
             {
                 options.ModelBindingMessageProvider.SetValueMustNotBeNullAccessor((_) => "O preenchimento do campo é obrigatório");
+                options.Filters.Add(new ServiceFilterAttribute(typeof(GlobalExceptionHandlingFilter)));
+                options.Filters.Add(new ServiceFilterAttribute(typeof(GlobalActionLogger)));
             }).SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             // Adicionar o AutoMapper para que o IoC seja resolvido
@@ -68,17 +76,17 @@ namespace Eventos.IO.Site
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/erro-de-aplicacao");
+                app.UseStatusCodePagesWithReExecute("/erro-de-aplicacao/{0}");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
+            app.UseElmahIo();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
-
             app.UseAuthentication();
-
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

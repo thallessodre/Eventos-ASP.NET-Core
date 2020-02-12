@@ -50,6 +50,7 @@ namespace Eventos.IO.Infra.Data.Repository
                         "WHERE E.Excluido = 0 " +
                         "AND E.OrganizadorId = @oid";
 
+            //throw new Exception("Erro teste");
             return Db.Database.GetDbConnection().Query<Evento>(sql, new { oid = organizadorId });
         }
 

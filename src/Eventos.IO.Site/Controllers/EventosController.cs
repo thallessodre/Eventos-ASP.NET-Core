@@ -36,7 +36,7 @@ namespace Eventos.IO.Site.Controllers
         }
 
         // GET: Eventos/Details/5
-        [Authorize(Policy = "PodeLerEventos")]
+        //[Authorize(Policy = "PodeLerEventos")]
         [Route("dados-do-evento/{id:guid}")]
         public IActionResult Details(Guid? id)
         {

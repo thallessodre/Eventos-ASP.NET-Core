@@ -7,6 +7,8 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Elmah.Io.Extensions.Logging;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Eventos.IO.Site
 {
@@ -19,6 +21,11 @@ namespace Eventos.IO.Site
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+                .UseStartup<Startup>()
+                .ConfigureLogging((ctx, logging) =>
+                {
+                    logging.Services.Configure<ElmahIoProviderOptions>(ctx.Configuration.GetSection("ElmahIo"));
+                    logging.AddElmahIo();
+                });
     }
 }

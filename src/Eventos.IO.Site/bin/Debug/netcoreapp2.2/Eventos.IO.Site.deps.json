@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "7fe80e4efd1804a648feb08adc9f2c3159463472"
+    "signature": "799c1665b30a09dcbbd210c4421cef5230bcc04e"
   },
   "compilationOptions": {
     "defines": [
@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP2_2"
     ],
-    "languageVersion": "",
+    "languageVersion": "7.3",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -25,7 +25,10 @@
       "Eventos.IO.Site/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
+          "Elmah.Io.AspNetCore": "3.7.86",
+          "Elmah.Io.Extensions.Logging": "3.5.50",
           "Eventos.IO.Application": "1.0.0",
+          "Eventos.IO.Infra.CrossCutting.AspNetFilters": "1.0.0",
           "Eventos.IO.Infra.CrossCutting.Bus": "1.0.0",
           "Eventos.IO.Infra.CrossCutting.Identity": "1.0.0",
           "Eventos.IO.Infra.CrossCutting.IoC": "1.0.0",
@@ -91,6 +94,52 @@
         },
         "compile": {
           "lib/netstandard2.0/Dapper.dll": {}
+        }
+      },
+      "Elmah.Io.AspNetCore/3.7.86": {
+        "dependencies": {
+          "Elmah.Io.Client": "3.7.75-pre",
+          "Microsoft.AspNetCore.Http": "2.2.0",
+          "Microsoft.Extensions.Hosting": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Elmah.Io.AspNetCore.dll": {
+            "assemblyVersion": "3.7.86.0",
+            "fileVersion": "3.7.86.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Elmah.Io.AspNetCore.dll": {}
+        }
+      },
+      "Elmah.Io.Client/3.7.75-pre": {
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.21",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Elmah.Io.Client.dll": {
+            "assemblyVersion": "3.7.75.0",
+            "fileVersion": "3.7.75.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.4/Elmah.Io.Client.dll": {}
+        }
+      },
+      "Elmah.Io.Extensions.Logging/3.5.50": {
+        "dependencies": {
+          "Elmah.Io.Client": "3.7.75-pre",
+          "Microsoft.Extensions.Logging": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Elmah.Io.Extensions.Logging.dll": {
+            "assemblyVersion": "3.5.50.0",
+            "fileVersion": "3.5.50.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Elmah.Io.Extensions.Logging.dll": {}
         }
       },
       "FluentValidation/8.5.0": {
@@ -205,6 +254,20 @@
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.21": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.3.21.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll": {}
         }
       },
       "Microsoft.VisualStudio.Web.CodeGeneration/2.2.4": {
@@ -568,6 +631,20 @@
           "Eventos.IO.Domain.Core.dll": {}
         }
       },
+      "Eventos.IO.Infra.CrossCutting.AspNetFilters/1.0.0": {
+        "dependencies": {
+          "Elmah.Io.Client": "3.7.75-pre",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
+          "Microsoft.Rest.ClientRuntime": "2.3.21"
+        },
+        "runtime": {
+          "Eventos.IO.Infra.CrossCutting.AspNetFilters.dll": {}
+        },
+        "compile": {
+          "Eventos.IO.Infra.CrossCutting.AspNetFilters.dll": {}
+        }
+      },
       "Eventos.IO.Infra.CrossCutting.Bus/1.0.0": {
         "dependencies": {
           "Eventos.IO.Domain.Core": "1.0.0"
@@ -607,6 +684,7 @@
         "dependencies": {
           "Eventos.IO.Application": "1.0.0",
           "Eventos.IO.Domain": "1.0.0",
+          "Eventos.IO.Infra.CrossCutting.AspNetFilters": "1.0.0",
           "Eventos.IO.Infra.CrossCutting.Bus": "1.0.0",
           "Eventos.IO.Infra.CrossCutting.Identity": "1.0.0",
           "Eventos.IO.Infra.Data": "1.0.0",
@@ -3770,6 +3848,27 @@
       "path": "dapper/2.0.30",
       "hashPath": "dapper.2.0.30.nupkg.sha512"
     },
+    "Elmah.Io.AspNetCore/3.7.86": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7eIzn22BhP0UKFF31pXwsaj8cblS8vpsmH/1kDsdk5Y+SKPZRJPEM9PQVBiI+5v9A/0eWUMladKsYsEAz6fD2A==",
+      "path": "elmah.io.aspnetcore/3.7.86",
+      "hashPath": "elmah.io.aspnetcore.3.7.86.nupkg.sha512"
+    },
+    "Elmah.Io.Client/3.7.75-pre": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pfSwSL2uGc8ET88I4JrJierkVwuW+6KmDf/7ge1WnsQlHzt5NBb7T1XIDn5lICqluv5TyikBlbx3UZx2gsz+Dw==",
+      "path": "elmah.io.client/3.7.75-pre",
+      "hashPath": "elmah.io.client.3.7.75-pre.nupkg.sha512"
+    },
+    "Elmah.Io.Extensions.Logging/3.5.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oOqOhDl1bJ94UMKgZVDNUtb8XmVp8ZVxxmLQRb93MYfXu50r3P5k75jWfqZNf1zGBXPjp3a0g5OWm10Uu8z0mw==",
+      "path": "elmah.io.extensions.logging/3.5.50",
+      "hashPath": "elmah.io.extensions.logging.3.5.50.nupkg.sha512"
+    },
     "FluentValidation/8.5.0": {
       "type": "package",
       "serviceable": true,
@@ -3832,6 +3931,13 @@
       "sha512": "sha512-xC9tZvGArwC2cZ2g+Fl80lX8lmo4sC8IR5OH4cH0TuqUsCzIp12srIx3ldAh+kRj+vD4JhqU+zsfaCxDfoeFYA==",
       "path": "microsoft.entityframeworkcore.sqlserver/2.2.2",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.2.2.2.nupkg.sha512"
+    },
+    "Microsoft.Rest.ClientRuntime/2.3.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KDYlgTyO693V6pi6SGk9eg+dDvKjuOgmkapbHdpnB1SmTPKpvWxVLIMyARJsCFLfB6axyURUJHOfvxBQ0yJKeg==",
+      "path": "microsoft.rest.clientruntime/2.3.21",
+      "hashPath": "microsoft.rest.clientruntime.2.3.21.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Web.CodeGeneration/2.2.4": {
       "type": "package",
@@ -4005,6 +4111,11 @@
       "sha512": ""
     },
     "Eventos.IO.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Eventos.IO.Infra.CrossCutting.AspNetFilters/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

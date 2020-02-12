@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Security.Claims;
 using Eventos.IO.Domain.Interfaces;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 
 namespace Eventos.IO.Infra.CrossCutting.Identity.Models
 {
-    public class AspNetUser : IUser
+    public class AspNetUser : IdentityUser, IUser
     {
         private readonly IHttpContextAccessor _accessor;
 

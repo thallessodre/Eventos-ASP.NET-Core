@@ -9,7 +9,6 @@ C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.I
 C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.Data\bin\Debug\netcoreapp2.0\Eventos.IO.Domain.Core.pdb
 C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.Data\bin\Debug\netcoreapp2.0\Eventos.IO.Domain.pdb
 C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.Data\obj\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.csprojAssemblyReference.cache
-C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.Data\obj\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.csproj.CoreCompileInputs.cache
 C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.Data\obj\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.AssemblyInfoInputs.cache
 C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.Data\obj\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.AssemblyInfo.cs
 C:\Users\Thalles\Desktop\Arquivos\Projetos\ASP NET Core\Eventos.IO\src\Eventos.IO.Infra.Data\obj\Debug\netcoreapp2.0\Eventos.IO.Infra.Data.csproj.CopyComplete

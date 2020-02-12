@@ -20,13 +20,13 @@
 
 function PopUpToastrCallBack() {
     toastr.options.onHidden = function () {
-        window.location = "//localhost:44397/meus-eventos";
+        window.location = "//localhost:5001/meus-eventos";
     };
     toastr.options.onclick = function () {
-        window.location = "//localhost:44397/meus-eventos";
+        window.location = "//localhost:5001/meus-eventos";
     };
     toastr.options.onCloseClick = function () {
-        window.location = "//localhost:44397/meus-eventos";
+        window.location = "//localhost:5001/meus-eventos";
     };
 }
 
